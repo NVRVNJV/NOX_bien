@@ -137,6 +137,17 @@ main {
         border: 0px solid #000000;
       }
 
+#perfiltexto h1 {
+        font-family: 'Work Sans';
+        font-size: 65px;
+}
+
+#perfiltexto p {
+        font-family: 'Work Sans';
+        font-size: 20px;
+        font-weight: 100;
+}
+
 #perfiltexto:hover{
         opacity: 0.8;
         background-color: red;
@@ -270,7 +281,7 @@ main {
         bottom: 20px;
         left: 20px;
         right: 20px;
-        padding: 20px;
+        padding: 10px;
         
     }
     
@@ -278,16 +289,47 @@ main {
         margin: 0 0 10px;
         padding: 0;
         color: #fff;
-        font-size: 30px;
-    
+        font-size: 25px;
     }
+
+    .container .slider .slide .caption h3 {
+        margin: 0 0 20px;
+        padding: 0;
+        color: #fff;
+        font-size: 18px;
+        transition: 1s;
+    }
+
     .container .slider .slide .caption p {
         
         color: #fff;
-        font-size: 18px;
+        font-size: 12px;
     }
     #perfiltexto{
         max-width:600px;
+        text-align: left;
+        position: relative;
+        background-color: white;
+        color: black;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        border-radius: 80px 10px 80px 10px;
+        -moz-border-radius: 80px 10px 80px 10px;
+        -webkit-border-radius: 80px 10px 80px 10px;
+        border: 0px solid #000000;
+      }
+
+    #perfiltexto h1 {
+        font-family: 'Work Sans';
+        font-size: 25px;
+    }
+
+    #perfiltexto p {
+        font-family: 'Work Sans';
+        font-size: 10px;
+        font-weight: 100;
     }
 }
 
