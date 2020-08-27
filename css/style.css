@@ -314,7 +314,7 @@ main {
         padding-top: 20px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         border-radius: 80px 10px 80px 10px;
         -moz-border-radius: 80px 10px 80px 10px;
         -webkit-border-radius: 80px 10px 80px 10px;
@@ -335,13 +335,13 @@ main {
     }
 
     form {
-        width: 450px;
+        width: 100%;
         margin: auto;
         background: rgba(255, 255, 255, 0.4);
         padding: 20px 20px 20px 20px;
         box-sizing: border-box;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         border-radius: 80px 10px 80px 10px;
         -moz-border-radius: 80px 10px 80px 10px;
         -webkit-border-radius: 80px 10px 80px 10px;
@@ -349,6 +349,24 @@ main {
         font-family: "Alata";
 }
 
+    textarea{
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 200px;
+        max-height: 200px;
+}
+    input, textarea{
+        width:100%;
+        margin-bottom: 10px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 10px;
+        border: none;
+    }
+
+    #contacto{
+        height:100vh;
+    }
 }
 
 #contacto{
@@ -361,7 +379,7 @@ main {
         justify-content:center;
         align-items:center;
         text-align:center;
-        padding:0px 0px;
+        padding:20px 20px;
 }
 
 form {
@@ -412,7 +430,7 @@ textarea{
         display:inline-block;
         font-size: 16px;
         border-radius: 20px;
-        transition-duration: 0.4s;
+        transition-duration: 1s;
         outline:none;
 }
 
