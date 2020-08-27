@@ -329,7 +329,7 @@ main {
 
     #perfiltexto h1 {
         font-family: 'Work Sans';
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #perfiltexto p {
@@ -355,7 +355,7 @@ main {
 }
 
 form {
-        width: 450px;
+        width: 400px;
         margin: auto;
         background: rgba(255, 255, 255, 0.4);
         padding: 20px 20px 20px 20px;
@@ -377,7 +377,7 @@ form h2 {
 }
 
 input, textarea{
-        width:100%;
+        width:75%;
         margin-bottom: 20px;
         padding: 7px;
         box-sizing: border-box;
@@ -387,8 +387,8 @@ input, textarea{
 }
 
 textarea{
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 75%;
+    max-width: 75%;
     min-height: 150px;
     max-height: 150px;
 }
