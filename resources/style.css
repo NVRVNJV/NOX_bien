@@ -59,7 +59,7 @@ main {
     }
 
 .cabecera {
-        background-image: url("/resources/fondo2jpg.webp");
+        background-image: url("resources/fondo2jpg.webp");
         background-size:cover;
         background-position:center;
         background-attachment: fixed;
@@ -96,7 +96,7 @@ main {
 }
 
 #perfil{
-        background-image: url("/resources/olitas.webp");
+        background-image: url("resources/olitas.webp");
         background-color: 
         #4747d1;
         background-position:center;
@@ -193,31 +193,31 @@ main {
 }
 
 .container .slider .slide.slide1 {
-        background: url("/resources/translation.jpg");
+        background: url("resources/translation.jpg");
         background-size:cover;
         background-position: center;
 }
 
 .container .slider .slide.slide2 {
-    background: url("/resources/laptop.jfif");
+    background: url("resources/laptop.jfif");
     background-size:cover;
     background-position: center;
 }
 
 .container .slider .slide.slide3 {
-    background: url("/resources/notebook.jpg");
+    background: url("resources/notebook.jpg");
     background-size:cover;
     background-position: center;
 }
 
 .container .slider .slide.slide4 {
-    background: url("/resources/Facultad_de_Lenguas_UNC.jpg");
+    background: url("resources/Facultad_de_Lenguas_UNC.jpg");
     background-size:cover;
     background-position: center;
 }
 
 .container .slider .slide.slide1 {
-    background: url("/resources/translation.jpg");
+    background: url("resources/translation.jpg");
     background-size:cover;
     background-position: center;
 }
@@ -277,7 +277,7 @@ main {
 }
 
 #contacto{
-        background-image: url("/resources/fondo2jpg.webp");
+        background-image: url("resources/fondo2jpg.webp");
         background-size: 100vw 100vh;
         background-attachment: fixed;
         height:80vh;
