@@ -276,6 +276,10 @@ main {
 }
 
 @media (max-width: 768px) {
+    .navbarlinks {
+        float:left;
+}
+    
     .container .slider .slide .caption {
         position: absolute;
         bottom: 20px;
